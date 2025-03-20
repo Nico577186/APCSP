@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Academics</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #4CAF50;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            color: #f1f1f1;
+        }
+
+        /* Heading Styles */
+        .heading {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .heading h1 {
+            font-size: 3em;
+            color: #4CAF50;
+        }
+
+        .heading h3 {
+            font-size: 2em;
+            color: #333;
+        }
+
+        .heading h5 {
+            font-size: 1.5em;
+            color: #777;
+        }
+
+        /* Section Styles */
+        .section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .section img {
+            max-width: 100%;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .section img:hover {
+            transform: scale(1.1);
+        }
+
+        .section p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        /* Contact Form */
+        .contact-form {
+            margin-top: 40px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            color: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#extracurriculars">Extracurriculars</a>
+        <a href="#movies">Movies</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="heading">
+        <h1>Nico's site</h1>
+        <h3>Welcome!</h3>
+        <h5>I am Nico. I go to PHS</h5>
+    </div>
+
+    <div id="home" class="section">
+        <img src="BIGFRANK.jpg" width="20%">
+        <p>Junior year is kinda hard, but I think I'm getting the hang of it. Heh! This GIANT hotdog is like my comfort food. Whenever junior year is getting too overwhelming, I THINK about the giant hotdog... do with that what you will, compadres.</p>
+    </div>
+
+    <div id="extracurriculars" class="section">
+        <h3>Extracurriculars 24-25</h3>
+        <img src="oar2.jpg" />
+        <p>I LOVE STEPHEN CHEFIN' CURRY.</p>
+    </div>
+
+    <div id="movies" class="section">
+        <img src="movie.jfif" width="20%">
+        <p>I quite like this movie because it's almost like a movie version of my favorite show, Atlanta. It shares very similar style and ideas.</p>
+    </div>
+
+    <!-- Contact Form -->
+    <div id="contact" class="contact-form">
+        <h3>Contact Me</h3>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Follow me on:</p>
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+    </footer>
+
+</body>
+</html>
